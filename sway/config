@@ -205,6 +205,11 @@ bar {
     swaybar_command waybar
 }
 
+# Disable laptop screen when closed
+bindswitch lid:on output eDP-1 disable
+# Enable laptop screen when opened
+bindswitch lid:off output eDP-1 enable
+
 exec mako
 
 include /etc/sway/config.d/*
