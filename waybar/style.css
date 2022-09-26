@@ -101,7 +101,7 @@ window#waybar.chromium {
     color: #26A65B;
 }
 
-#battery.warning {
+#battery.warning:not(.charging) {
     color: #f53c3c;
 }
 
